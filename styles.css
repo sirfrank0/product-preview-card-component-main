@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&family=Montserrat&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -16,9 +18,35 @@ main{
     grid-template-columns: 50% 50%;
     background-color:hsl(0, 0%, 100%);
     border-radius: 0.75rem;
+    filter: drop-shadow(0rem 0.15rem 0.15rem rgba(0, 0, 0, 0.05)); 
 
 }
 main img{
     max-inline-size: 100%;
      block-size: auto;
 }
+
+h2{
+    font-size: 0.875rem;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.25rem;
+    color: hsl(228, 12%, 48%);
+    
+}
+
+h1{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(212, 21%, 14%);
+
+}
+
+h3{
+    font-size: 0.875rem;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+}
+
