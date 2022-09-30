@@ -29,8 +29,8 @@ main{
 .img-main img{
     max-inline-size: 100%;
      block-size: auto;
-     border-top-left-radius: 0.75em;;
-     border-bottom-left-radius: 0.75em;;
+     border-top-left-radius: 0.75em;
+     border-bottom-left-radius: 0.75em;
 }
 
 .info-main{
@@ -131,6 +131,10 @@ h6{
         grid-template-columns: 100% ;        
     }
 
-    main img
-
+    .img-main{
+        border-top-left-radius: 5rem ;
+        border-top-right-radius: 1em;
+        border-bottom-left-radius: 0em;
 }
+
+}  
