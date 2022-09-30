@@ -3,3 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    height: 100vh;
+    background-color: hsl(30, 38%, 92%);
+
+}
+
+main{
+    max-width: 37.5rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color:hsl(0, 0%, 100%);
+    border-radius: 0.75rem;
+
+}
+main img{
+    max-inline-size: 100%;
+     block-size: auto;
+}
