@@ -120,21 +120,20 @@ h6{
 
 @media (max-width: 480px){
 
-    body{
-    font-size: 12px;
-    }
-    
+
     
     main{
         max-width: 18.75em;
-        display: grid;
-        grid-template-columns: 100% ;        
+       display: block;     
     }
 
-    .img-main{
-        border-top-left-radius: 5rem ;
-        border-top-right-radius: 1em;
-        border-bottom-left-radius: 0em;
+    .img-main img{
+        max-inline-size: 300px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        
+        
 }
 
 }  
