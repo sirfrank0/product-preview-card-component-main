@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 480px){
+
+
+    
+    main{
+        max-width: 18.75em;
+        display: flex;    
+        flex-direction: column; 
+    }
+
+    .img-main img{
+        max-inline-size: 300px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;   
+    }
+}
+
+
