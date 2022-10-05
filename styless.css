@@ -48,8 +48,8 @@ h2{
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 0.25em;
     color: hsl(228, 12%, 48%);
-    margin-top: 2em;
-    margin-bottom: 1.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
     
 }
 
@@ -60,7 +60,7 @@ h1{
     color: hsl(212, 21%, 14%);
     
     line-height: 1;
-    margin-bottom: 1.0em;
+    margin-bottom: 0.5em;
 }
 
 h3{
@@ -69,7 +69,7 @@ h3{
     font-family: 'Montserrat', sans-serif;
     color: hsl(228, 12%, 48%);
     line-height: 1.5;
-    margin-bottom: 1.5em;
+    margin-bottom: 1em;
 }
 
 .prices{
