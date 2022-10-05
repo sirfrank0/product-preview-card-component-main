@@ -8,7 +8,7 @@
 
 body{
     width: 100%;
-    height: 100%;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +17,7 @@ body{
 
 
 main{
-    max-width: 18.75em;
+    max-width: 22.75em;
     display: flex;    
     flex-direction: column; 
     background-color:hsl(0, 0%, 100%);
@@ -26,10 +26,97 @@ main{
 }
 
 .img-main img{
-    max-inline-size: 300px;
-    height: 300px;
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+    border-top-left-radius: 0.75em;
+    border-top-right-radius: 0.75em;
+    
+}
+
+
+.info-main{
+    margin-left: 2em;
+    padding-right: 3em;
+
+}
+
+
+h2{
+    font-size: 0.875em;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.25em;
+    color: hsl(228, 12%, 48%);
+    margin-top: 2em;
+    margin-bottom: 1.5em;
+    
+}
+
+h1{
+    font-size: 2em;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    color: hsl(212, 21%, 14%);
+    
+    line-height: 1;
+    margin-bottom: 1.0em;
+}
+
+h3{
+    font-size: 0.875em;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    line-height: 1.5;
+    margin-bottom: 1.5em;
+}
+
+.prices{
     display: flex;
-    flex-direction: column;   
+    margin-left: 0;
+    align-items: center;
+    gap: 1.75em;
+    margin-bottom: 1.5em;
+}
+
+h4{
+    font-size: 1.5em;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    color: hsl(158, 36%, 37%);
+}
+
+h5{
+    font-size: 0.875em;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+}
+
+button{
+    display: flex;
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    border-radius: 0.375em;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    gap: 0.5em;
+    filter: drop-shadow(0em 0.15em 0.15em rgba(0, 0, 0, 0.15)); 
+    margin-bottom: 1em;
+}
+button img{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+h6{
+
+    font-size: 0.875em;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(0, 0%, 100%);
 }
 
 
