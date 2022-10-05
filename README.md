@@ -4,4 +4,4 @@
 
 ## Welcome! 👋
 
-This is my solution to this Frontend Challenge.
+This is my solution to this Frontend Challenge. Using mobile fisrt.
